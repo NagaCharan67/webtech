@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>deactivation form</title>
+    <style>
+        .container {
+            max-width: 500px;
+            margin: auto;
+            boredr:2px solid #616365;
+            border-radius:20px;
+        }
+        h1{
+            text-align: center;
+        }
+        input{
+            margin-bottom: 5px;
+            width:100% ;
+            border-radius: 20px;
+            height: 25px;
+        }
+        #s1{
+            margin-top: 5px;
+            border: 2px solid black;
+            border-radius: 20px;
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>deactivation Form</h1>
+    <div class="container">
+        <form action="">
+            <div>
+                <label for="name">Username:</label>
+                <input type="text" name="name" id="name" required>
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <div>
+                <label for="pass">Password:</label>
+                <input type="password" name="pass" id="pass" required>
+            </div>
+            <div id="s1">
+                <label for="reason">Reason for Deactivation:</label>
+                <select id="reason" name="reason" required>
+                    <option value="">Select a reason</option>
+                    <option value="privacy">Privacy Concerns</option>
+                    <option value="bullying">Bullying or Harassment</option>
+                    <option value="time">Spending Too Much Time on Instagram</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

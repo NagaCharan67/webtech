@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>location</title>
+    <style>
+        .container{
+            max-width: 400px;
+            padding-top: 50px;
+            padding-bottom: 50px;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            margin-top: 100px;
+            border: solid rgb(176, 176, 192)
+        }
+        input{
+            width: 100%;
+            margin-bottom: 20px;
+            height: 25px;
+        }
+        label{
+            font-weight: bolder;
+        }
+        h2{
+            text-align: center;
+            font-size: 40px;
+            font-weight:bolder;
+            color: blue;
+        }
+        button{
+            border: 3px solid rgb(176, 176, 192);
+            width: 70%;
+            margin-left: 35px;
+            border-radius: 50px;
+            background-color: blue;
+            color: aliceblue;
+            font-size: larger;
+
+        }
+        .b1{
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h2>What's your Location?</h2>
+    <div class="container">
+        <form action="Linkedin5.html" target="_self" method="get">
+            <div>
+                <label for="Country">Country:</label>
+                <input type="text" name="Country" id="Country" required>
+            </div>
+            <div>
+                <label for="City">City/District:</label>
+                <input type="text" name="City" id="city" required>
+            </div>
+            <div class="b1">
+                <button type="submit">Next</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

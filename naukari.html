@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Your Naukri Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 500px;
+            background-color: #fff;
+            margin: auto;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 20px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        label {
+            font-weight: bold;
+            margin-bottom: 5px;
+            color: #555;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            background-color: #28a745;
+            color: #fff;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            width: 100%;
+        }
+
+        button:hover {
+            background-color: rgb(10, 38, 62);
+        }
+
+        p {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Create Your Naukri Profile</h2>
+        <p>Search & apply to jobs from India's No.1 Job Site</p>
+        <form action="naukari1.html" target="_self" method="get">
+            <div>
+                <label for="name">Full Name*</label>
+                <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+            </div>
+            <div>
+                <label for="email">Email ID*</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email ID" required>
+            </div>
+            <div>
+                <label for="password">Password*</label>
+                <input type="password" id="password" name="password" placeholder="Minimum 6 characters" required>
+            </div>
+            <div>
+                <label for="number">Mobile Number*</label>
+                <input type="tel" id="number" name="number" placeholder="Enter your mobile number" required>
+
+            </div>
+            <div>
+                <label for="location">Current Location*</label>
+                <input type="text" id="location" name="location" placeholder="Enter your current location" required>
+            </div>
+            <div>
+                <label for="experience">Years of Experience*</label>
+                <input type="number" id="experience" name="experience" placeholder="Enter your years of experience"
+                    required>
+            </div>
+            <div>
+                <label for="skills">Key Skills</label>
+                <input type="text" id="skills" name="skills" placeholder="Enter your key skills" required>
+            </div>
+            <div>
+                <label for="resume">Upload Resume</label>
+                <input type="file" id="resume" name="resume" required>
+            </div>
+            <button type="submit">Create Profile</button>
+        </form>
+    </div>
+</body>
+
+</html>

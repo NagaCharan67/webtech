@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<!-- saved from url=(0060)http://127.0.0.1:5500/Restaurent-Menu/Restaurent%20Menu.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TASK-6</title>
+    <style>
+        body {
+            padding-left: 260px;
+            background-color: black;
+        }
+
+        ol {
+            font-size: larger;
+            color: rgba(1, 1, 1, 0.968);
+            font-family: cursive;
+        }
+
+        .container {
+            max-width: 950px;
+            display: block;
+            justify-content: center;
+            border: 10px solid rgb(255, 73, 73);
+            border-radius: 10px;
+            color: black;
+            background-color: #ffc83d;
+        }
+
+        .container2,
+        .container3,
+        .container4,
+        .container5 {
+            border: 5px solid green;
+            border-radius: 10px;
+        }
+        .container6{
+            position: absolute;
+            top: 214.5px;
+            right: 880px;
+            font-family:sans-serif;
+            font-size: x-large;
+        }
+        .container7{
+            position: absolute;
+            top: 1555.7px;
+            right: 880px;
+            font-family:sans-serif;
+            font-size: x-large;
+        }
+        .container8{
+            position: absolute;
+            top: 2114px;
+            right: 880px;
+            font-family:sans-serif;
+            font-size: x-large;
+        }
+        .container9{
+            position: absolute;
+            top: 2646px;
+            right: 880px;
+            font-family:sans-serif;
+            font-size: x-large;
+        }
+        .container10{
+            position: absolute;
+            top: 3072.5px;
+            right: 880px;
+            font-family:sans-serif;
+            font-size: x-large;
+        }
+        .container11{
+            position: absolute;
+            top: 3537px;
+            right: 880px;
+            font-family:sans-serif;
+            font-size: x-large;
+        }
+        .container12{
+            position: absolute;
+            top: 3833px;
+            right: 880px;
+            font-family:sans-serif;
+            font-size: x-large;
+        }
+        .container13{
+            position: absolute;
+            top: 4708px;
+            right: 880px;
+            font-family:sans-serif;
+            font-size: x-large;
+        }
+        h1 {
+            color: red;
+            text-align: center;
+            font-size: 45px;
+            font-family: monospace;
+            text-shadow: 1px black;
+        }
+
+        h2 {
+            color: rgb(4, 4, 4);
+            font-size: large;
+        }
+
+        .section-title {
+            text-align: center;
+            font-style: oblique;
+            font-family: serif;
+            font-size: xx-large;
+            text-decoration: underline;
+        }
+        h3 {
+            font-size: 25px;
+            font-family: cursive;
+            text-decoration: underline;
+            padding-left: 15px;
+        }
+        h6{
+            font-size: x-large;
+            position: absolute;
+            top: 130px;
+            right: 860px;
+            text-decoration: underline;
+        }
+        img {
+            position: absolute;
+            top: 0%;
+            right: 0%;
+        }
+
+        #I1 {
+            top: 165px;
+            right: 415px;
+            width: 210px;
+        }
+
+        #I2 {
+            top: 360px;
+            right: 400px;
+            width: 270px;
+        }
+
+        #I3 {
+            top: 500px;
+            right: 400px;
+            width: 250px;
+        }
+
+        #I4 {
+            top: 720px;
+            right: 400px;
+            width: 240px;
+        }
+        #I6 {
+            top: 900px;
+            right: 400px;
+            width: 250px;
+        }
+
+        #I7 {
+            top: 1165px;
+            right: 400px;
+            width: 200px;
+            height: 220px;
+        }
+
+        #I8 {
+            top: 1500px;
+            right: 400px;
+            width: 200px;
+            height: 220px;
+        }
+
+        #I9 {
+            top: 1840px;
+            right: 400px;
+            width: 200px;
+            height: 220px;
+        }
+
+        #I10 {
+            top: 1660px;
+            right: 400px;
+            width: 220px;
+            height: 220px;
+        }
+
+        #I11 {
+            top: 2100px;
+            right: 400px;
+            width: 200px;
+            height: 200px;
+        }
+
+        #I12 {
+            top: 2500px;
+            right: 400px;
+            width: 220px;
+            height: 220px;
+        }
+
+        #I13 {
+            top: 2300px;
+            right: 400px;
+            width: 220px;
+            height: 220px;
+        }
+
+        #I14 {
+            top: 2700px;
+            right: 400px;
+            width: 220px;
+            height: 220px;
+        }
+        #I16 {
+            top: 2950px;
+            right: 400px;
+            width: 220px;
+            height: 220px;
+        }
+        #I19 {
+            top: 3170px;
+            right: 400px;
+            width: 220px;
+            height: 220px;
+        }
+
+        #I20 {
+            top: 3500px;
+            right: 400px;
+            width: 270px;
+            height: 270px;
+        }
+
+        #I21 {
+            top: 4100px;
+            right: 400px;
+            width: 220px;
+            height: 220px;
+        }
+
+        #I22 {
+            top: 3800px;
+            right: 400px;
+            width: 280px;
+            height: 280px;
+        }
+        #I24 {
+            top: 4350px;
+            right: 400px;
+            width: 250px;
+            height: 240px;
+        }
+
+        #I27 {
+            top: 4780px;
+            right: 370px;
+            width: 220px;
+            height: 220px;
+        }
+        #I29 {
+            top: 4600px;
+            right: 370px;
+            width: 230px;
+            height: 230px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Touch Bistro</h1>
+        <div class="container2">
+            <div class="section">
+                <h2 class="section-title">Breakfast</h2>
+                <ol>
+                    <li>
+                        <strong>Idly</strong>
+                    </li><br>
+                    <li>
+                        <strong>Sambar Idly</strong>
+                    </li><br>
+                    <li>
+                        <strong>Ghee Karam Idly</strong>
+                    </li><br>
+                    <li>
+                        <strong>Vada</strong>
+                    </li><br>
+                    <li>
+                        <strong>Sambar Vada</strong>
+                    </li><br>
+                    <li>
+                        <strong>Pongal</strong>
+                    </li><br>
+                    <li>
+                        <strong>Plain Dosa</strong>
+                    </li><br>
+                    <li>
+                        <strong>Onion Dosa </strong>
+                    </li><br>
+                    <li>
+                        <strong>Ghee Karam Dosa</strong>
+                    </li><br>
+                    <li>
+                        <strong>Masala Dosa</strong>
+                    </li><br>
+                    <li>
+                        <strong>Rava Dosa</strong>
+                    </li><br>
+                    <li>
+                        <strong>Pesara Dosa</strong>
+                    </li><br>
+                </ol>
+                <img id="I1" src="./TASK-6_files/BG3.png" alt="">
+                <img id="I2" src="./TASK-6_files/BG2.png" alt="">
+                <img id="I3" src="./TASK-6_files/BG4.png" alt="">
+                <img id="I4" src="./TASK-6_files/BG5.png" alt="">
+            </div>
+            <div class="section">
+                <h2 class="section-title">Snacks</h2>
+                <ol>
+                    <li>
+                        <strong>Veg Burger</strong>
+                    </li><br>
+                    <li>
+                        <strong>Chicken Burger</strong>
+                    </li><br>
+                    <li>
+                        <strong>French Fries</strong>
+                    </li><br>
+                    <li>
+                        <strong>Veg Pizza</strong>
+                    </li><br>
+                    <li>
+                        <strong>Paneer Pizza</strong>
+                    </li><br>
+                    <li>
+                        <strong>Chicken Pizza</strong>
+                    </li><br>
+                    <li>
+                        <strong>Mojitos</strong>
+                    </li><br>
+                    <li>
+                        <strong>Soft Drinks</strong>
+                    </li><br>
+                </ol>
+                <img id="I6" src="./TASK-6_files/BG7.png" alt="">
+                <img id="I7" src="./TASK-6_files/BG8.png" alt="">
+            </div>
+        </div><br>
+        <div class="container3">
+            <div class="section">
+                <h2 class="section-title">Starters</h2>
+                <h3>Veg:-</h3>
+                <ol>
+                    <li>
+                        <strong>Paneer 65</strong>
+                    </li><br>
+                    <li>
+                        <strong>Paneer pepper fry</strong>
+                    </li><br>
+                    <li>
+                        <strong>Paneer Tikka</strong>
+                    </li><br>
+                    <li>
+                        <strong>Garlic Paneer</strong>
+                    </li><br>
+                    <li>
+                        <strong>Paneer Popcorn</strong>
+                    </li><br>
+                    <li>
+                        <strong>Cauliflower fritters</strong>
+                    </li><br>
+                    <li>
+                        <strong>Crispy potato</strong>
+                    </li><br>
+                    <li>
+                        <strong>Mozzrella</strong>
+                    </li><br>
+                    <li>
+                        <strong>Mushroom Pate</strong>
+                    </li><br>
+                </ol>
+                <img id="I8" src="./TASK-6_files/BG9.png" alt="">
+                <img id="I9" src="./TASK-6_files/BG10.png" alt="">
+                <img id="I10" src="./TASK-6_files/BG11.png" alt="">
+            </div>
+            <div>
+                <h3>Non-Veg:-</h3>
+                <ol>
+                    <li>
+                        <strong>Chicken Spring Rolls</strong>
+                    </li><br>
+                    <li>
+                        <strong>Chicken pepper fry</strong>
+                    </li><br>
+                    <li>
+                        <strong>Chicken Tikka</strong>
+                    </li><br>
+                    <li>
+                        <strong>Chicken Pakora</strong>
+                    </li><br>
+                    <li>
+                        <strong>Butter Chicken Meatballs</strong>
+                    </li><br>
+                    <li>
+                        <strong> Chicken Kebabs</strong>
+                    </li><br>
+                    <li>
+                        <strong>Chicken Lollypop</strong>
+                    </li><br>
+                    <li>
+                        <strong>Dragon Chicken</strong>
+                    </li><br>
+                    <li>
+                        <strong>Chicken Mejastic</strong>
+                    </li>
+                </ol>
+                <img id="I11" src="./TASK-6_files/BG12.png" alt="">
+                <img id="I12" src="./TASK-6_files/BG13.png" alt="">
+                <img id="I13" src="./TASK-6_files/BG14.png" alt="">
+                <img id="I14" src="./TASK-6_files/BG15.png" alt="">
+            </div>
+            <div>
+                <h3>Sea Food :-</h3>
+                <ol>
+                    <li>
+                        <strong>Chilli Prawns</strong>
+                    </li><br>
+                    <li>
+                        <strong>Prawn Ghee Roast</strong>
+                    </li><br>
+                    <li>
+                        <strong> Fish Tikka</strong>
+                    </li><br>
+                    <li>
+                        <strong>Fish Fry</strong>
+                    </li><br>
+                    <li>
+                        <strong>Amritsari Fish Fry</strong>
+                    </li><br>
+                    <li>
+                        <strong>Tawa Fish</strong>
+                    </li><br>
+                    <li>
+                        <strong>Apollo Fish</strong>
+                </li></ol>
+            </div>
+            <div>
+                <h3>Meat Items</h3>
+                <ol>
+                    <li>
+                        <strong>Seekh Kebabs</strong>
+                    </li><br>
+                    <li>
+                        <strong>Chapali Kebab</strong>
+                    </li><br>
+                    <li>
+                        <strong>Mutton Keema Samosa</strong>
+                    </li><br>
+                    <li>
+                        <strong>Mutton Paya</strong>
+                    </li><br>
+                    <li>
+                        <strong>Crispy Muttonballs</strong>
+                    </li><br>
+                </ol>
+                <img id="I16" src="./TASK-6_files/BG17.png" alt="">
+                <img id="I19" src="./TASK-6_files/BG20.png" alt="">
+            </div>
+        </div><br>
+        <div class="container4">
+            <div class="section">
+                <h2 class="section-title">Main Course</h2>
+                <h3>Veg Biryanis:-</h3>
+                <ol>
+                    <li>
+                        <strong>Veg Biryani</strong>
+                    </li><br>
+                    <li>
+                        <strong>Paneer Biryani</strong>
+                    </li><br>
+                    <li>
+                        <strong>Mushroom Biryani</strong>
+                    </li><br>
+                    <li>
+                        <strong>All Mixed Veg Biryani</strong>
+                    </li><br>
+                </ol>
+            </div>
+            <div>
+                <h3>Non-Veg Biryanis:-</h3>
+                <ol>
+                    <li>
+                        <strong>Egg Biryani</strong>
+                    </li><br>
+                    
+                    <li>
+                        <strong>Chicken Dum Biryani</strong>
+                    </li><br>
+                    <li>
+                        <strong>Chicken Fry Piece Biryani</strong>
+                    </li><br>
+                    <li>
+                        <strong>Chicken Tikka Biryani</strong>
+                    </li><br>
+                    <li>
+                        <strong>Boneless Chicken Biryani</strong>
+                    </li><br>
+                    <li>
+                        <strong>Chicken Lollipop Biryani</strong>
+                    </li><br>
+                    <li>
+                        <strong>Chicken Kebab Biryan</strong>
+                    </li><br>
+                    <li>
+                        <strong>Mughalai Chicken Biryani</strong>
+                    </li><br>
+                    <li>
+                        <strong>Fish Biryani</strong>
+                    </li><br>
+                    <li>
+                        <strong>Fish TIkka Biryani</strong>
+                    </li><br>
+                    <li>
+                        <strong>Full Fish Biryani</strong>
+                    </li><br>
+                    <li>
+                        <strong>Prawns Biryani</strong>
+                    </li><br>
+                    <li>
+                        <strong>Mutton Biryani</strong>
+                    </li><br>
+                    <li>
+                        <strong>Mutton Dum Biryani</strong>
+                    </li><br>
+                </ol>
+                <img id="I20" src="./TASK-6_files/BG21.png" alt="">
+                <img id="I21" src="./TASK-6_files/BG22.png" alt="">
+                <img id="I22" src="./TASK-6_files/BG23.png" alt="">
+                <img id="I24" src="./TASK-6_files/BG25.png" alt="">
+            </div>
+        </div><br>
+        <div class="container5">
+            <div class="section">
+                <h2 class="section-title">Desserts</h2>
+                <ol>
+                    <li>
+                        <strong>Apricot Delight</strong>
+                    </li><br>
+                    <li>
+                        <strong>Sizzeling Brownie</strong>
+                    </li><br>
+                    <li>
+                        <strong>Kunafa</strong>
+                    </li><br>
+                    <li>
+                        <strong>Rainbow cake</strong>
+                    </li><br>
+                </ol>
+                <img id="I27" src="./TASK-6_files/BG28.png" alt="">
+                <img id="I29" src="./TASK-6_files/BG30.png" alt="">
+            </div>
+        </div>
+        <h6>Prices</h6>
+        <div class="container6">
+            <p>30</p>
+            <p>50</p>
+            <p>70</p>
+            <p>30</p>
+            <p>50</p>
+            <p>40</p>
+            <p>35</p>
+            <p>55</p>
+            <p>80</p>
+            <p>75</p>
+            <p>70</p>
+            <p>35</p><br>
+            <br>
+            <br>
+            <p>99</p>
+            <p>139</p>
+            <p>49</p>
+            <p>129</p>
+            <p>159</p>
+            <p>199</p> 
+            <p>119</p>
+            <p>40</p>
+        </div>
+        <div class="container7">
+            <p>119</p>
+            <p>129</p>
+            <p>139</p>
+            <p>139</p>
+            <p>159</p>
+            <p>119</p>
+            <p>119</p>
+            <p>159</p>
+            <p>139</p>
+        </div>
+        <div class="container8">
+            <p>149</p>
+            <p>149</p>
+            <p>159</p>
+            <p>119</p>
+            <p>169</p>
+            <p>159</p>
+            <p>189</p>
+            <p>199</p>
+            <p>189</p>
+        </div>
+        <div class="container9">
+            <p>189</p>
+            <p>239</p>
+            <p>319</p>
+            <p>329</p>
+            <p>359</p>
+            <p>349</p>
+            <p>399</p>
+        </div>
+        <div class="container10">
+            <p>319</p>
+            <p>359</p>
+            <p>259</p>
+            <p>319</p>
+            <p>309</p>
+        </div>
+        <div class="container11">
+            <p>199</p>
+            <p>229</p>
+            <p>249</p>
+            <p>289</p>
+        </div>
+        <div class="container12">
+            <p>299</p>
+            <p>309</p>
+            <p>339</p>
+            <p>359</p>
+            <p>379</p>
+            <p>369</p>
+            <p>349</p>
+            <p>379</p>
+            <p>399</p>
+            <p>419</p>
+            <p>519</p>
+            <p>559</p>
+            <p>599</p>
+            <p>599</p>
+        </div>
+        <div class="container13">
+            <p>149</p>
+            <p>219</p>
+            <p>359</p>
+            <p>75</p>
+        </div>
+    </div>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</body></html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>profile</title>
+    <style>
+        .container{
+            max-width: 400px;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+            border: solid rgb(163, 163, 175);
+            padding:20px;
+            padding-top: 50px;
+            padding-bottom: 50px;
+            border-radius: 20px;
+        }
+        input{
+            width: 100%;
+            margin-bottom: 20px;
+            height: 25px;
+            border-radius: 20px;
+            margin-top: 3px;
+        }
+        label{
+            font-weight: bolder;
+        }
+        h2{
+            text-align: center;
+            font-size: 40px;
+            font-weight:bolder;
+            color: rgb(7, 243, 14);
+        }
+        button{
+            border: 3px solid rgb(176, 176, 192);
+            width: 70%;
+            margin-left: 45px;
+            border-radius: 50px;
+            background-color: rgb(251, 43, 6);
+            color: aliceblue;
+            font-size: larger;
+            margin-top: 15px;
+        }
+    </style>
+   
+</head>
+<body>
+    <h2>Academic Information</h2>
+    <div class="container">
+        <form action="Student Registration3.html" target="_self" method="get">
+            <div>
+                <label for="scl">School Name</label>
+                <input type="text" name="scl" required>
+            </div>
+            <div class="file">
+                <label for="resume">Upload certificate</label>
+                <input type="file" id="10" name="resume" placeholder="10th certificate"required>
+            </div>
+            <div>
+                <label for="y1">Year of completion</label>
+                <input type="year" name="y1" maxlength="4" required>
+            </div>
+            <div>
+                <label for="clg">College</label>
+                <input type="text" name="clg" required>
+            </div>
+            <div>
+                <label for="y2">Year of completion</label>
+                <input type="year" name="y2" maxlength="4" required>
+            </div>
+            <div>
+                <label for="i1">Interested branch</label required><br>
+                <select name="i1" id="">
+                   <option value="">CSE</option> 
+                   <option value="">ECE</option>
+                   <option value="">Mech</option>
+                   <option value="">Civil</option>
+                   <option value="">EEE</option> 
+                   <option value="">EIE</option>
+                   <option value="">AGRICULTURE</option>
+                   <option value="">PHARMACY</option>
+                </select>
+            </div>
+            <div>
+                <button type="submit">Next</button>
+            </div>
+            
+        </form>
+    </div>
+    
+</body>
+</html>

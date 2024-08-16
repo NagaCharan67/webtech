@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University form</title>
+    <style>
+        .container {
+            max-width: 500px;
+            margin: auto;
+            margin-top: 50px;
+            border: 3px solid gainsboro;
+            padding: 20px;
+            border-radius: 20px;
+        }
+
+        label {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input[type="text"],
+        input[type="date"],
+        input[type='email'],
+        #p1{
+            width: 100%;
+            border-radius: 20px;
+            height: 30px;
+            margin-bottom: 20px;
+            padding: 5px;
+            border: 1px solid #ccc;
+        }
+
+        .radio-group {
+            margin-bottom: 20px;
+        }
+
+        .radio-group label {
+            display: inline-block;
+        }
+        h1{
+            text-align: center;
+            color: rgb(7, 243, 14);
+            position: relative;
+            top: 25px;
+        }
+        button{
+            border: 2px solid rgb(136, 136, 139);
+            width:70%;
+            padding: 5px;
+            border-radius: 20px;
+            margin-left: 80px;
+            background-color: rgb(251, 43, 6);
+            color: azure;
+            font-size: large;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>University Registration form</h1>
+    <div class="container">
+        <form action="Student Registration2.html" target="_self" method="get">
+            <div>
+                <label for="fname">Full name</label>
+                <input type="text" name="fname" id="fname" required>
+            </div>
+            <div>
+                <label for="dob">Date of birth</label>
+                <input type="date" name="dob" id="dob" required>
+            </div>
+            <div>
+                <label for="gen">Gender</label>
+                <div class="radio-group" id="gen">
+                    <div class="radio">
+                        <input type="radio" name="gender" id="g1" value="Male" required>
+                        <label for="g1">Male</label>
+                    </div>
+                    <div class="radio">
+                        <input type="radio" name="gender" id="g2" value="Female" required>
+                        <label for="g2">Female</label>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <label for="n1">Nationality</label>
+                <input type="text" name="n1" id="n1" required>
+            </div>
+            <div>
+                <label for="address">Address</label>
+                <input type="text" name="address" id="address" required>
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <div>
+                <label for="p1">Mobile number</label>
+                <input type="tel" name="p1" id="p1" required>
+            </div>
+            <div class="file">
+                <label for="resume">Upload image(png,jpg)</label>
+                <input type="file" id="10" name="resume" required>
+            </div>
+            <button type="submit">Next</button>
+        </form>
+    </div>
+</body>
+
+</html>

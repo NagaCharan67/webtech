@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Learning Platform Feedback Form</title>
+    <style>
+        .container {
+            max-width: 600px;
+            margin: auto;
+            margin-top: 50px;
+            border: 3px solid gainsboro;
+            padding: 20px;
+            border-radius: 20px;
+            font-family: Arial, sans-serif;
+        }
+
+        h2 {
+            text-align: center;
+            color: blue;
+        }
+
+        label {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        textarea,
+        #name,
+        #email,
+        #course,
+        select {
+            width: 100%;
+            border-radius: 20px;
+            height: 30px;
+            margin-bottom: 20px;
+            padding: 5px;
+            border: 1px solid #ccc;
+        }
+
+        textarea {
+            height: 100px;
+        }
+
+        .radio-group {
+            display: inline-flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            width: 40%;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        #submit:hover {
+            background-color: #0a430e;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h2>E-Learning Platform Feedback Form</h2>
+        <form action="">
+            <div>
+                <label for="name">Full Name</label>
+                <input type="text" name="name" id="name" required>
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <div>
+                <label for="course">Course Name</label>
+                <input type="text" name="course" id="course" required>
+            </div>
+            <div id="rate">
+                <label for="rating">Overall Rating</label>
+                <select name="rating" id="rating" required>
+                    <option value="5">Excellent</option>
+                    <option value="4">Very Good</option>
+                    <option value="3">Good</option>
+                    <option value="2">Fair</option>
+                    <option value="1">Poor</option>
+                </select>
+            </div>
+            <div>
+                <label>Would you recommend this course to others?</label>
+                <div class="radio-group">
+                    <div>
+                        <input type="radio" name="recommend" id="yes" value="yes" required>
+                        <label for="yes">Yes</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="recommend" id="no" value="no" required>
+                        <label for="no">No</label>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <label for="comments">Feedback</label>
+                <textarea name="comments" id="comments" maxlength="200"></textarea>
+            </div>
+            <button type="submit" id="submit">Submit Feedback</button>
+        </form>
+    </div>
+</body>
+
+</html>
